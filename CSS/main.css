@@ -1,0 +1,108 @@
+
+.site-header{
+    background-color: black;
+    color: white;
+    padding: auto;
+}
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: flex-end;
+}
+
+.flx-grw-1{
+    flex-grow: .02;
+    font-size: 35px;
+}
+
+.txt-dec{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero-img{
+    position: relative;
+    max-width: 100%;
+}
+
+.image-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0);
+    color: white;
+    padding: 10px 20px;
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img-txt-item{
+    margin-right: 20px;
+}
+
+.month{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.month_h3{
+    margin: 0;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 25px ;
+}
+
+.show-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.show-dates{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.show-info{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.read-more-btn{
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+
+.site-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
